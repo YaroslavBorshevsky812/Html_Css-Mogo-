@@ -652,22 +652,27 @@ p {
                     position: absolute;
                     top: 38%;
                     right: 20px;
+                    transition: .2s;
                   }
                 }
             
             }
 
             &-text {
-              display: none;
+              // display: none;
               border-top: 0px;
-              padding: 20px;
-              border: 1px solid #e5e5e5;
+              // border: 1px solid #e5e5e5;
               @include roboto;
               font-size: 15px;
               font-style: italic;
               font-weight: lighter;
               color: #b3b3b3;
               line-height: 24px;
+
+              position: relative;
+              height: 0;
+              overflow: hidden;
+              transition: 1s;
             }
       }
       
@@ -679,7 +684,10 @@ p {
 }
 
 .accordeon_content_item.active .accordeon_content_item-text {
-  display: block;
+  // display: block;
+  height: 200px;
+  padding: 20px;
+  border: 1px solid #e5e5e5;
 }
 .accordeon_content_item.active .accordeon_content_item-title-text:after {
   transform: rotate(180deg);

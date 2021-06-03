@@ -467,24 +467,28 @@ h1, h2, h3, h4, h5, h6 {
           content: url("/images/accordbtn.svg");
           position: absolute;
           top: 38%;
-          right: 20px; }
+          right: 20px;
+          transition: .2s; }
     .accordeon_content_item-text {
-      display: none;
       border-top: 0px;
-      padding: 20px;
-      border: 1px solid #e5e5e5;
       font-family: 'Roboto', sans-serif;
       font-size: 15px;
       font-style: italic;
       font-weight: lighter;
       color: #b3b3b3;
-      line-height: 24px; }
+      line-height: 24px;
+      position: relative;
+      height: 0;
+      overflow: hidden;
+      transition: 1s; }
 
 .accordeon_main-image-pic {
   display: block; }
 
 .accordeon_content_item.active .accordeon_content_item-text {
-  display: block; }
+  height: 200px;
+  padding: 20px;
+  border: 1px solid #e5e5e5; }
 
 .accordeon_content_item.active .accordeon_content_item-title-text:after {
   transform: rotate(180deg); }
