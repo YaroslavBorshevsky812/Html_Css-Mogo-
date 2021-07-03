@@ -691,9 +691,8 @@ p {
             }
 
             &-text {
-              // display: none;
+              padding: 0px 20px;
               border-top: 0px;
-              // border: 1px solid #e5e5e5;
               @include roboto;
               font-size: 15px;
               font-style: italic;
@@ -711,6 +710,15 @@ p {
       
 }
 
+.accordeon_main-image {
+  width: 40%;
+}
+
+.accordeon_content_item-title-icon {
+  width: auto;
+  height: auto;
+}
+
 .accordeon_main-image-pic {
   display: block;
   max-width: 100%;
@@ -720,7 +728,7 @@ p {
 .accordeon_content_item.active .accordeon_content_item-text {
   // display: block;
   height: 200px;
-  padding: 20px;
+  padding: 20px 20px;
   border: 1px solid #e5e5e5;
 }
 .accordeon_content_item.active .accordeon_content_item-title-text:after {
