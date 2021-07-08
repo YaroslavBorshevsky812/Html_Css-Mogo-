@@ -433,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .device {
   height: 860px;
-  background: url("/images/phonefon.png") center no-repeat;
+  background: url("../images/phonefon.png") center no-repeat;
   background-size: cover; }
 
 .device_content {
@@ -491,7 +491,7 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 14px;
         color: #333333; }
         .accordeon_content_item-title-text:after {
-          content: url("/images/accordbtn.svg");
+          content: url("../images/accordbtn.svg");
           position: absolute;
           top: 38%;
           right: 20px;
