@@ -747,7 +747,7 @@ p {
 // Reviews
 
 .reviews {
-  background: url("/images/fonteam.png") center no-repeat;
+  background: url("../images/fonteam.png") center no-repeat;
   background-size: cover;
     &_inner {
       display: flex;
@@ -889,7 +889,7 @@ p {
 
 // Map
 .map {
-  background: url("/images/map/fon.png") center no-repeat;
+  background: url("../images/map/fon.png") center no-repeat;
   background-size: cover;
 }
 
